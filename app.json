@@ -1,12 +1,20 @@
 {
-  "name": "UdaciFitness",
-  "displayName": "UdaciFitness",
-  "expo": {
+  "expo":{
+    "sdkVersion": "20.0.0",
+    "orientation": "portrait",
     "name": "UdaciFitness",
+    "description": "The best thriatlon tracker",
     "slug": "UdaciFitness",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "icon": "https://tylermcginnis.com/udacifitness-512.png",
+    "notification": {
+      "icon": "https://tylermcginnis.com/udacifitness-45.png"
+    },
+    "ios": {
+      "bundleIdentifier": "org.udacifitness.exp"
+    },
+    "android": {
+      "bundleIdentifier": "org.udacifitness.exp"
+    }
   }
 }
